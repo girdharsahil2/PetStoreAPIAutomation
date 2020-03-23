@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.PetStoreAPI.TestCases.TC005_LogoutUser_Test"/>
+      <class name="com.PetStoreAPI.TestCases.TC002_loginAPI_Test"/>
+      <class name="com.PetStoreAPI.TestCases.TC004_UpdateUser_Test"/>
+      <class name="com.PetStoreAPI.TestCases.TC003_fetchUserDetails_Test"/>
+      <class name="com.PetStoreAPI.TestCases.TC001_CreateUser_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
